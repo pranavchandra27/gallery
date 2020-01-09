@@ -1,0 +1,40 @@
+nav {
+  background-color: dodgerblue;
+  box-shadow: 2px 5px 5px 5px gray;
+}
+
+.Navbar {
+  width: 90%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.Navbar .logo h1 {
+  font-weight: 500;
+  font-size: 38px;
+  color: #fff;
+}
+
+.Navbar .logo h1::first-letter {
+  font-size: 34px;
+  color: #333;
+  font-weight: 600;
+}
+
+.Navbar a {
+  color: #fff;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-links .links {
+  padding-left: 24px;
+  font-size: 14px;
+  text-transform: capitalize;
+}
